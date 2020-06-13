@@ -36,7 +36,7 @@ public class FizzBuzzGeneratorTest {
     @Test
     public void givenRange0to0_WhenGenerate_ThenReturnEmptyArray() {
 
-        String[] result = fizzBuzzGenerator.createArrayInRange(1, 5);
+        String[] result = fizzBuzzGenerator.createArrayInRange(0, 0);
 
         assertThat(result).isEmpty();
     }
